@@ -1,0 +1,52 @@
+.container {
+  /* optei por usar o 100% pois o meu monitor tem 23 polegadas, neste caso usando 144rem, que bate os 1440 pxs, a tela ficava menor */
+  max-width: 100%;
+  max-height: screen;
+}
+
+.div {
+  display: flex;
+  position: relative;
+  /* 27px, pois é a metade do tamanho do meu input, dessa forma fica no meio */
+  top: -27px;
+  max-width: calc(63.8rem + 9rem + 1.6rem);
+  height: 54px;
+  gap: 0.8rem;
+  margin: 0 auto;
+}
+
+.div input {
+  background: var(--gray-500);
+  border-radius: 8px;
+  border: 0;
+  width: 63.8rem;
+  padding: 1.6rem;
+  font-size: 1.6rem;
+  color: var(--gray-300);
+}
+
+.div button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  width: 9rem;
+  height: 52px;
+  padding: 1.6rem;
+  border-radius: 8px;
+  background: var(--blue-dark);
+  border: 0;
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: var(--gray-100);
+  cursor: pointer;
+}
+
+.div span {
+  display: flex;
+  align-items: center;
+  width: 1.6rem;
+  height: 1.6rem;
+  border: 1px solid var(--gray-100);
+  border-radius: 999px;
+}

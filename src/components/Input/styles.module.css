@@ -1,0 +1,8 @@
+.input:focus {
+  color: var(--gray-100);
+}
+
+.input {
+  color: var(--gray-300);
+  border: 0;
+}
